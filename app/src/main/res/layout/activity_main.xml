@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.tolga.thymiosensorapp.MainActivity"
+        android:background="#FFF8E1">
+
+
+        <Button
+            android:text="Click here to show online Notepad file into textview "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/button" />
+
+        <TextView
+            android:text="Your Text File text disply here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="74dp"
+            android:padding="5dp"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
