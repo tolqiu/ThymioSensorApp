@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //while (true) {
                 new GetNotePadFileFromServer().execute();
-                System.out.println("WHILE INNNNNNNNNNNNNNNNNNNNNNNNNNN*************************");
+                System.out.println("WHILE INNN*************************");
                 //}
             }
         });
